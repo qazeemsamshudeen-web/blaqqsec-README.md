@@ -1,7 +1,7 @@
 <div align="center">
 
 # QAZEEM SAMSUDEEN TEMITOPE
-### **Junior Cybersecurity Analyst | SOC Analyst Tier 1 | Cloud Security & Identity Governance**
+### **Junior Cybersecurity Analyst | SOC Analyst Tier 1 |penetration testing| Cloud Security & Identity Governance**
 **Defending Enterprise Infrastructure • Active Directory Hardening • SIEM Detection Engineering**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)

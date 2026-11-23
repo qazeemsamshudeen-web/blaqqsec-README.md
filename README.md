@@ -1,15 +1,14 @@
 <div align="center">
 
 # QAZEEM SAMSUDEEN TEMITOPE
-### **Junior Cybersecurity Analyst | SOC Analyst Tier 1 |penetration testing| Cloud Security & Identity Governance**
-**Defending Enterprise Infrastructure • Active Directory Hardening • SIEM Detection Engineering**
+### **Cybersecurity Analyst | SOC Analyst Tier 1 | Application & Systems Defense**
+**Web Defense & ModSecurity WAF • Splunk SIEM Threat Hunting • Active Directory & Cloud IAM**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:qazeemsamshudeen@gmail.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/2348130406501)
-[![Credly](https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white)](https://www.credly.com/users/qazeem-samsudeen)
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/blaqqsec)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-08130406501-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/2348130406501)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Qazeem_Samsudeen-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/qazeem-samshudeen-94b314398/)
+[![Email](https://img.shields.io/badge/Email-qazeemsamshudeen%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:qazeemsamshudeen@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-qazeemsamshudeen--web-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/qazeemsamshudeen-web)
+[![Credly](https://img.shields.io/badge/Credly-Verified_Badges-FF6B00?style=for-the-badge&logo=credly&logoColor=white)](https://www.credly.com/badges/fd0065d5-d52e-450c-bd75-819c54f1ed65)
 
 ---
 
@@ -17,108 +16,118 @@
 
 ## 🛡️ About Me
 
-I am an investigative, results-driven **Cybersecurity Analyst & SOC Tier 1 Practitioner** with hands-on experience spanning Security Operations (SOC), Active Directory administration, cloud identity security (AWS IAM), and vulnerability assessment.
+I am a security practitioner and final-year **Criminology and Security Studies** student at the **University of Ilorin (UNILORIN)**, bridging digital risk governance with practical, hands-on security tradecraft. 
 
-Holding a **B.Sc. in Criminology and Security Studies** from the **University of Ilorin (UNILORIN)**, I combine investigative methodologies with deep technical tradecraft—ingesting multi-source telemetry into Splunk SIEM, hunting credential-based attacks (MITRE ATT&CK T1110), implementing Least Privilege (PoLP) on Windows Server architectures, and simulating cloud privilege escalation scenarios.
+My work focuses on defending applications and enterprise environments: configuring **Web Application Firewalls (ModSecurity WAF)** with OWASP Core Rulesets, investigating credential-stuffing and brute-force attacks in **Splunk SIEM**, auditing permissions and implementing the **Principle of Least Privilege (PoLP)** in Windows Server and AWS Cloud IAM, and conducting pre-launch vulnerability assessments.
 
-- 🔭 **Current Focus:** SOC Tier 1 Monitoring, Active Directory Pentesting, SIEM Detection Engineering, and Cloud Security.
-- 💼 **Experience:** Cybersecurity Intern at **Bincom Dev Center** | Information Security Intern at **UNILORIN Cybersecurity Unit**.
-- 📜 **Certifications:** Cisco IT Support Specialist, Cisco Networking Basics, Cisco Intro to Cybersecurity, Splunk Core Fundamentals.
-- 🎯 **Career Goal:** Safeguarding enterprise infrastructure and critical assets as a SOC Analyst / Cloud Security Analyst.
+- 🔭 **Current Focus:** Application Security, SOC Tier-1 Threat Monitoring, Active Directory Hardening & Cloud Identity Governance.
+- 💼 **Experience:** Cybersecurity & IT Infrastructure Intern at **Bincom Dev Center** (November 2026 – Present).
+- 📜 **Cisco Certified:** Introduction to Cybersecurity, Networking Basics, and IT Support Specialist.
+- 🎯 **Career Objective:** Joining an engineering or security operations team as a **Cybersecurity Analyst / SOC Tier 1 / IT Security Specialist**.
 
 ---
 
-## 🚀 Featured Security Projects
+## 🚀 Practical Security Projects & Tools Used
 
-### 1. Enterprise Active Directory Architecture & Least-Privilege Hardening
-`WINDOWS SERVER 2022` `ACTIVE DIRECTORY` `AGDLP MODEL` `GROUP POLICY` `PoLP`
+### 1. Web Application Defense & Apache ModSecurity WAF Deployment
+> **Primary Tools Used:** `Apache HTTP Server` • `ModSecurity 3.x` • `OWASP Core Rule Set (CRS)` • `Burp Suite` • `Nikto` • `Curl / Bash CLI`
 
-An enterprise directory service deployment on Windows Server 2022 (`BlaqqSec-lab.local`) focused on establishing role-based access control, helpdesk delegation, and audit logging without granting excessive administrative privileges.
-
-- **Hierarchical OU Architecture:** Structured organizational units separating administrative tiers, staff workstations, and service accounts.
-- **AGDLP Role-Based Access Control:** Implemented Account → Global Group → Domain Local Group → Permission hierarchy to prevent privilege creep.
-- **Helpdesk Rights Delegation:** Delegated password reset and account unlock privileges to Tier-1 Helpdesk without Domain Admin escalation.
-- **GPO Security Hardening:** Enforced domain-wide USB storage device blocking and configured Advanced Security Audit Policies (Event IDs 4624, 4625, 4688).
+Implemented a hardened reverse-proxy Web Application Firewall (WAF) using Apache to defend web applications against OWASP Top 10 vulnerabilities and protect backend databases.
+- **WAF Rule Deployment:** Configured over 800+ OWASP Core Rule Set (CRS) detection rules to inspect incoming HTTP/HTTPS traffic.
+- **Custom Virtual Patching:** Engineered custom regex-based virtual patch rules to intercept Cross-Site Scripting (XSS) and SQL Injection (SQLi) attacks, returning `403 Forbidden` responses prior to backend execution.
+- **Security Validation:** Conducted pre-launch scans using Burp Suite and Nikto to verify rule efficacy and eliminate false positives.
 
 ---
 
 ### 2. Splunk SIEM Threat Monitoring & T1110 Incident Attribution
-`SIEM` `SPLUNK ENTERPRISE` `SPL HUNTING` `MITRE ATT&CK T1110` `INCIDENT RESPONSE`
+> **Primary Tools Used:** `Splunk Enterprise` • `SPL (Search Processing Language)` • `Ubuntu Linux` • `Windows Event Logs` • `Wireshark`
 
-Ingested multi-source telemetry from Linux auth logs and Windows event logs into Splunk Enterprise to detect and attribute multi-threaded brute-force attacks in real time.
-
-- **Log Ingestion & Parsing:** Configured Splunk forwarders and indexes to capture authentication attempts, SSH sessions, and failed logon bursts.
-- **Custom SPL Threat Hunting:** Authored targeted SPL queries calculating authentication velocity, threshold anomalies, and failed logon sequences (Event ID 4625).
-- **Incident Attribution:** Attributed 100% of brute-force bursts to adversary IP addresses and automated containment triggers via Fail2ban.
-- **SOC Executive Dashboard:** Designed dark-mode real-time visual dashboards tracking top attacked users, geographical origins, and timeline spikes.
-
----
-
-### 3. Cloud Security: AWS IAM Privilege Escalation & Least-Privilege Remediation
-`AWS CLOUD` `IAM` `PRIVILEGE ESCALATION` `CLOUDGOAT` `LEAST PRIVILEGE`
-
-Simulated the industry-standard Rhino Security Labs **CloudGoat `iam__privesc_by_attachment`** attack lifecycle inside an isolated AWS cloud sandbox engine and engineered production-grade remediation guardrails.
-
-- **Vulnerability Reproduction:** Provisioned low-privilege user `intern-qazeem` with an overly permissive `iam:AttachUserPolicy` wildcard permission (`Resource: *`).
-- **Exploit Execution:** Abused attachment rights to bind `AdministratorAccess` (`*:*`) to the unprivileged identity, achieving root-level account takeover.
-- **Least-Privilege Remediation:** Contained the compromise, revoked admin rights, and authored a hardened policy with strict read-only access.
-- **Explicit Deny Guardrails:** Engineered an `ExplicitDeny` policy on all `iam:Attach*` and `iam:Put*` actions, permanently neutralizing escalation vectors.
+Built an end-to-end security monitoring pipeline ingesting multi-source authentication telemetry to detect and investigate brute-force intrusions in real time.
+- **Telemetry Ingestion:** Configured universal forwarders to ingest Windows Event Logs (Event IDs 4624, 4625) and Linux `auth.log` files into Splunk indexes.
+- **Detection Engineering:** Developed custom SPL search queries tracking authentication attempt velocity to catch multi-threaded brute-force attacks (**MITRE ATT&CK T1110**).
+- **Network Traffic Inspection:** Inspected raw packet captures via Wireshark to verify authentication headers and correlate adversary source IP addresses.
+- **SOC Dashboard:** Designed real-time visual dashboards summarizing failed login surges, geographic sources, and targeted usernames.
 
 ---
 
-### 4. Web Application Security & ModSecurity WAF Defense
-`APACHE WAF` `MODSECURITY` `OWASP CRS` `VIRTUAL PATCHING` `WEB DEFENSE`
+### 3. AWS Cloud IAM Privilege Escalation & Least-Privilege Remediation
+> **Primary Tools Used:** `AWS Management Console` • `AWS CLI` • `CloudGoat Sandbox` • `IAM JSON Policies` • `Least Privilege (PoLP)`
 
-Deployed an enterprise reverse-proxy Web Application Firewall (WAF) using Apache and the OWASP Core Rule Set (CRS) to protect web applications against OWASP Top 10 exploits.
-
-- **Rule Deployment:** Deployed 800+ OWASP CRS detection rules to intercept and inspect HTTP request payloads.
-- **Virtual Patching:** Authored custom regular-expression rules to virtually patch known SQL Injection (SQLi) and Cross-Site Scripting (XSS) attack vectors with HTTP 403 Forbidden.
-- **Evasion Testing:** Simulated obfuscated payloads to validate WAF inspection sensitivity and false-positive rates.
-
----
-
-## 🛠️ Technical Skills & Security Toolkit
-
-### Security Operations & Threat Monitoring
-![Splunk](https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![VirusTotal](https://img.shields.io/badge/VirusTotal-3949AB?style=for-the-badge&logo=virustotal&logoColor=white)
-![urlscan.io](https://img.shields.io/badge/urlscan.io-008080?style=for-the-badge)
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
-
-### Identity & Access Governance (IAM)
-![Active Directory](https://img.shields.io/badge/Active_Directory-0078D7?style=for-the-badge&logo=windows&logoColor=white)
-![Group Policy](https://img.shields.io/badge/Group_Policy_(GPO)-005A9E?style=for-the-badge)
-![AWS IAM](https://img.shields.io/badge/AWS_IAM-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Least Privilege](https://img.shields.io/badge/Least_Privilege_(PoLP)-107C41?style=for-the-badge)
-![RBAC / AGDLP](https://img.shields.io/badge/RBAC_/_AGDLP-5C2D91?style=for-the-badge)
-
-### Vulnerability Assessment & Penetration Testing
-![Nmap](https://img.shields.io/badge/Nmap-000000?style=for-the-badge)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burp-suite&logoColor=white)
-![OpenVAS](https://img.shields.io/badge/OpenVAS-408000?style=for-the-badge)
-![Metasploit](https://img.shields.io/badge/Metasploit-136CB2?style=for-the-badge&logo=metasploit&logoColor=white)
-![Nikto](https://img.shields.io/badge/Nikto-4B0082?style=for-the-badge)
-
-### Operating Systems & Virtualization
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
-![Windows Server](https://img.shields.io/badge/Windows_Server_2022-0078D4?style=for-the-badge&logo=windows&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white)
+Replicated the Rhino Security Labs **CloudGoat `iam__privesc_by_attachment`** attack vector within an isolated AWS sandbox and engineered permanent policy guardrails.
+- **Attack Simulation:** Exploited an over-permissive `iam:AttachUserPolicy` permission on a test user (`intern-qazeem`) to attach `AdministratorAccess` and gain root-level account compromise.
+- **Hardened Least-Privilege Policy:** Revoked excessive administrative rights and authored a minimal read-only JSON policy strictly mapped to job requirements.
+- **Explicit Deny Guardrail:** Enforced an `ExplicitDeny` policy block on `iam:Attach*` and `iam:Put*` API calls to permanently prevent unauthorized privilege escalation.
 
 ---
 
-## 📜 Verified Certifications & Badges
+### 4. Windows Server 2022 Active Directory & Group Policy Hardening
+> **Primary Tools Used:** `Windows Server 2022` • `Active Directory Domain Services (AD DS)` • `Group Policy Management (GPMC)` • `Oracle VirtualBox`
 
-| Certification / Badge | Issuing Organization | Verification Link |
+Engineered a dedicated directory services lab (`BlaqqSec-lab.local`) to practice identity management, administrative tiering, and endpoint security policies.
+- **Hierarchical OU Design:** Built departmental Organizational Units (OUs) separating administrative personnel, standard staff, and service accounts.
+- **RBAC & AGDLP Model:** Implemented Account → Global Group → Domain Local Group → Permission hierarchy to prevent privilege creep.
+- **Group Policy Hardening:** Deployed domain-level GPOs disabling unauthorized USB mass storage devices and enforcing password complexity requirements.
+- **Privilege Delegation:** Practiced Tier-1 Helpdesk delegation (password resets, account unlock) without granting Domain Admin rights.
+
+---
+
+### 5. Server Patch Management & Vulnerability Remediation
+> **Primary Tools Used:** `Apache Web Server` • `Linux CLI (Ubuntu/Debian)` • `CVE Vulnerability Reports` • `Technical Runbooks`
+
+Hands-on operational security tasks conducted as part of the Bincom Dev Center structured internship.
+- **Vulnerability Assessment:** Reviewed application test environments for outdated software packages, unpatched web libraries, and insecure default configurations.
+- **Patch Management:** Reviewed update notifications and deployed security patches to Apache web servers to remediate known CVE exploits.
+- **Technical Documentation:** Wrote step-by-step developer runbooks documenting vulnerability reproduction and patch verification procedures.
+
+---
+
+## 🛠️ Technical Skills Mapped to Tools
+
+| Domain | Tools & Technologies | Context / Project Applied |
+| :--- | :--- | :--- |
+| **Web & App Security** | Apache HTTP Server, ModSecurity WAF, OWASP CRS | Reverse-proxy WAF deployment, virtual patching (SQLi, XSS) |
+| **Vulnerability Assessment** | Burp Suite Community, Nikto, Nmap | Pre-deployment web testing, port discovery & service auditing |
+| **SIEM & Log Analysis** | Splunk Enterprise, SPL Queries, Wireshark | T1110 brute-force detection, auth log auditing, packet inspection |
+| **Cloud Security (IAM)** | AWS Management Console, AWS CLI, JSON IAM Policies | CloudGoat privesc testing, least-privilege guardrails |
+| **Directory Services & OS** | Windows Server 2022, Active Directory, GPO | OU hierarchy, USB blocking policy, helpdesk rights delegation |
+| **Virtualization & Systems** | Oracle VirtualBox, Ubuntu Linux, Windows 10/11 | Isolated multi-VM lab environments, bash CLI administration |
+| **Compliance & Frameworks** | NDPA (Nigeria Data Protection Act), MITRE ATT&CK | Data privacy alignment, adversary technique mapping |
+
+---
+
+## 📜 Verified Certifications & Credentials
+
+| Credential | Issuer | Verification |
 | :--- | :--- | :--- |
 | **IT Support Specialist** | Cisco Networking Academy | [Verify on Credly ↗](https://www.credly.com/badges/c54f5738-0c67-4e7c-8ca7-98c3bde4d51e) |
 | **Networking Basics** | Cisco Networking Academy | [Verify on Credly ↗](https://www.credly.com/badges/38c54253-3e3f-43de-8eed-39aca261336d) |
 | **Introduction to Cybersecurity** | Cisco Networking Academy | [Verify on Credly ↗](https://www.credly.com/badges/fd0065d5-d52e-450c-bd75-819c54f1ed65) |
-| **Splunk Core Fundamentals / Certified Beginner** | Splunk Inc. | Verified Certificate |
-| **Black-Box Penetration Testing** | NetworkWalks Academy | Verified Participation Certificate |
-| **ByteMe CTF Certified Competitor** | ByteMe Cyber Defense | Certified Competitor (2026) |
+| **Splunk Core Certified Beginner** | Splunk Inc. | Verified Training Completion |
+| **ByteMe CTF Competitor** | ByteMe Cyber Defense | Certified Competitor (2026) |
+
+---
+
+## 🎓 Education
+
+**Bachelor of Science (B.Sc.) in Criminology and Security Studies**  
+*University of Ilorin (UNILORIN), Ilorin, Kwara State, Nigeria*  
+Expected Completion: 2026 (Final Year)  
+- **Relevant Coursework:** Cyber Criminology, Risk Governance, Security Intelligence, Nigeria Data Protection Act (NDPA) Compliance.
+
+---
+
+<div align="center">
+
+### 📬 Connect With Me
+
+Looking for an eager, hands-on **Junior Cybersecurity Analyst**, **SOC Analyst Tier 1**, or **IT Security Specialist**? Let's connect!
+
+📞 **WhatsApp / Phone:** [+234 813 040 6501](https://wa.me/2348130406501) • `08130406501`  
+✉ **Email:** [qazeemsamshudeen@gmail.com](mailto:qazeemsamshudeen@gmail.com)  
+🔗 **LinkedIn:** [linkedin.com/in/qazeem-samshudeen-94b314398](https://www.linkedin.com/in/qazeem-samshudeen-94b314398/)  
+💻 **GitHub:** [github.com/qazeemsamshudeen-web](https://github.com/qazeemsamshudeen-web)
+
+</div>
 
 
 

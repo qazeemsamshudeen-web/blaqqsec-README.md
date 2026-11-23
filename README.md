@@ -146,8 +146,8 @@ Deployed an enterprise reverse-proxy Web Application Firewall (WAF) using Apache
 ## 🎓 Education & Background
 
 - **B.Sc. in Criminology and Security Studies**  
-  *University of Ilorin (UNILORIN), Ilorin, Nigeria* | **2022 – 2026**  
-  *Focus:* Cyber Criminology, Organizational Risk Management, Security Intelligence, Compliance Governance (NDPA/NDPR/HIPAA).
+  **University of Ilorin**
+  *Focus:* Cyber Criminology, Organizational Risk Management, Security Intelligence.
 
 ---
 

@@ -124,7 +124,7 @@ Deployed an enterprise reverse-proxy Web Application Firewall (WAF) using Apache
 ![bytemecert](byteme-cert.png)
 
 **cisco-IT customer-cert**
-![cisco-IT-customer](cisco-IT-ustomer-support.PNG)
+![cisco-IT-customer](cisco-IT-customer-support.PNG)
 
 **cisco-cybersecurity-beginner**
 ![cisco-cybersecurity](cisco-cybersecurity-beginner.png)

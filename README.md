@@ -120,6 +120,25 @@ Deployed an enterprise reverse-proxy Web Application Firewall (WAF) using Apache
 | **Black-Box Penetration Testing** | NetworkWalks Academy | Verified Participation Certificate |
 | **ByteMe CTF Certified Competitor** | ByteMe Cyber Defense | Certified Competitor (2026) |
 
+**bytemecert**
+![bytemecert](byteme-cert.png)
+
+**cisco-IT customer-cert**
+![cisco-IT-customer](cisco-IT-ustomer-support.PNG)
+
+**cisco-cybersecurity-beginner**
+![cisco-cybersecurity](cisco-cybersecurity-beginner.png)
+
+**networking-basics**
+![networking-basics-cert](networking-basics.png)
+
+**networkwalks**
+![networkwalk-certificate](networkwalk-certificate.png)
+
+**splunk-cert**
+![splunk-cert](splunk-beginner-certification.PNG)
+
+ 
 ---
 
 ## 🎓 Education & Background
